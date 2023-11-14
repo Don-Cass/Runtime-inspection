@@ -4,7 +4,7 @@ public class MyHeap {
     public MyHeap(int maxSize) { //생성자
         arr = new int[maxSize+1];
     }
-    public void add(int item) {
+    public void insertHeap(int item) {
         int pos = ++size; // 전체 자료 개수도 증가시키고, 초기 자료 저장할 위치를 설정
         // 내가 들어갈 위치 찾기...부보의 값과 비교해서 교환 여부 결정
         while( pos!=1 && item > arr[pos/2] ) { // 부모가 나보다 작은 경우 root까지 가면서 반복
@@ -14,7 +14,7 @@ public class MyHeap {
         // pos ==1이되어서 root까지 왔거나, 부모가 나보다 더 큰 경우
         arr[pos] = item; // 찾은 위치에 item을 넣기
     }
-    public int getMax() {
+    public int getMaxHeap() {
         if( size==0 ) return -1; // 자료가 하나도 없는 경우 -1을 리턴. Exception처리가 바람직
         int max = arr[1];
         // 루트를 삭제하고, 자식 중에서 후보자를 위로 올리는 작업

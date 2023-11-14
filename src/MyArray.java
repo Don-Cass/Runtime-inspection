@@ -11,7 +11,6 @@ public class MyArray {
     public int getMax() {
         // 최댓값을 리턴
         if( pos <0 ) {
-            System.out.println("데이터 없음");
             return -1;
         }
         int max = arr[0];
@@ -24,16 +23,15 @@ public class MyArray {
     }
     public void deleteMax(){
         if( pos <0 ) {
-            System.out.println("데이터 없음");
             return;
         }
-        int max = arr[0];
-        int i = 0;
-        for (; i < arr.length; i++) {
-            if( arr[i] > max ) {
-                max = arr[i];
+
+        int maxIndex = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if( arr[i] > arr[maxIndex] ) {
+                maxIndex = i;
             }
         }
-        arr[i] = arr[pos--];
+        arr[maxIndex] = arr[pos--];
     }
 }

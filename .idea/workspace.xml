@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28c42487-ab0d-4d31-8a6e-8968c6b390ac" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HeapArrayComparison.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExecutionTimeMeasurement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExecutionTimeMeasurement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExecutionTimeMeasurement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +41,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Dohyeon.DESKTOP-HD8Q2S7/.jdks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699945598623</updated>
       <workItem from="1699945599961" duration="5280000" />
+      <workItem from="1699952498322" duration="6141000" />
     </task>
     <servers />
   </component>
